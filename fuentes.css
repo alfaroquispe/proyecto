@@ -1,0 +1,23 @@
+@font-face{
+	font-family: sans-bold;
+	src:url(fuentes/PT_Sans-Web-Bold.ttf);
+}
+@font-face{
+	font-family: sans-bolditalic;
+	src:url(fuentes/PT_Sans-Web-BoldItalic.ttf);
+}
+@font-face{
+	font-family: sans-italic;
+	src:url(fuentes/PT_Sans-Web-Italic.ttf);
+}
+@font-face{
+	font-family: sans-regular;
+	src:url(fuentes/PT_Sans-Web-Regular.ttf);
+}
+@font-face{
+	font-family: ptsans-serif;
+	src:url(fuentes/PT_Serif-Web-Regular.ttf);
+}
+	
+	
+	

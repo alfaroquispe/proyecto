@@ -1,0 +1,291 @@
+.aqpad2 {
+  padding: 2%; }
+
+.aqborder {
+  border: blue 1px solid; }
+
+.aqbgle {
+  background-color: #7f7f7f; }
+
+.aqbgbl {
+  background-color: #264162; }
+
+.aqtxwh {
+  color: #fff; }
+
+.aqsi15 {
+  font-size: 1.5rem; }
+
+.aqsi08 {
+  font-size: 0.8rem; }
+
+.aqwi100 {
+  width: 10rem; }
+
+.aqpad {
+  padding-left: 2%;
+  padding-right: 2.2%; }
+
+.aqmx0 {
+  margin-left: 0;
+  margin-right: 0; }
+
+.aqmt35 {
+  margin-top: 3.5rem; }
+
+.aqmb20 {
+  margin-bottom: 2rem; }
+
+.aqmt20 {
+  margin-top: 2rem; }
+
+.aqpy20 {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+.aqpx175 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem; }
+
+.aqpt125 {
+  padding-top: 1.25rem; }
+
+.aqpb20 {
+  padding-bottom: 2rem; }
+
+.aqpb40 {
+  padding-bottom: 4rem; }
+
+.aqcard {
+  border: none;
+  padding-left: 2%; }
+
+.aqcardimg {
+  width: 370;
+  height: 100; }
+
+.aqsubti {
+  font-family: sans-regular; }
+
+.aqticard {
+  color: #333333;
+  font-size: 1.5rem;
+  font-family: sans-bold; }
+
+.aqsbti {
+  padding-bottom: 0.5rem;
+  padding-top: 1rem; }
+
+.aqsbtisi {
+  font-size: 1.05rem;
+  font-weight: 600; }
+
+.aqsbtx {
+  color: #3479b2;
+  line-height: 1.2;
+  font-size: .92rem; }
+
+.aqcal {
+  width: 4rem;
+  height: 3.5rem;
+  -webkit-box-shadow: 0px 0px 2px 1px #264162;
+  box-shadow: 0px 0px 2px 1px #264162;
+  text-align: center; }
+
+.aqcalfec {
+  color: #264162;
+  line-height: 80%;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  -ms-flex-line-pack: bottom;
+  align-content: bottom; }
+
+.aqcalfecdy {
+  font-size: 2rem;
+  line-height: 80%; }
+
+.aqcalti {
+  font-size: 1.1rem;
+  font-family: sans-bold; }
+
+.aqcalst {
+  font-size: 1rem;
+  font-family: sans-regular; }
+
+.aqcalfe {
+  font-size: 0.9rem;
+  font-family: sans-regular; }
+
+.aqjt {
+  font-size: 1.1rem; }
+  .aqjt.aqjtbt {
+    background: #3479b2;
+    border-color: #3479b2;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s; }
+    .aqjt.aqjtbt:hover {
+      background: #c82f30;
+      border-color: #c82f30; }
+
+h1 {
+  font-family: sans-bold; }
+
+p {
+  color: #333333; }
+
+a:hover {
+  color: #c82f30;
+  text-decoration: none; }
+
+.hovdeno:hover {
+  background: none;
+  text-decoration: none; }
+  .hovdeno:hover h5 {
+    color: #c82f30; }
+
+img:hover {
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  /* opacity: .9; */ }
+
+.imgpr {
+  margin-top: 1rem;
+  margin-bottom: 2rem; }
+
+.aqslal {
+  font-size: 2rem;
+  color: black;
+  text-align: left;
+  left: 0%;
+  right: 0%; }
+  .aqslal h1, .aqslal h4 {
+    padding-left: 2%;
+    padding-right: 2%; }
+
+.aqun {
+  padding: 2.6rem 2rem;
+  -webkit-box-shadow: 0px 0px 8px 1px #ccc;
+  box-shadow: 0px 0px 8px 1px #ccc; }
+  .aqun.bble {
+    border-bottom: 5px solid #666666; }
+  .aqun.bbbl {
+    border-bottom: 5px solid #306DA7; }
+  .aqun.bbre {
+    border-bottom: 5px solid #c4213a; }
+
+.aqbble1 {
+  border-bottom: 1px solid #7f7f7f; }
+
+.aqbble4 {
+  border-bottom: 4px solid #f2f2f2; }
+
+.aqbbbl4 {
+  border-bottom: 4px solid #d7e6f4; }
+
+.aqbbre4 {
+  border-bottom: 4px solid #fbe9ec; }
+
+.aqunbbcole {
+  border-bottom: 5px solid #666666; }
+
+.aqunbbcobl {
+  border-bottom: 5px solid #306DA7; }
+
+.aqunbbcore {
+  border-bottom: 5px solid #c4213a; }
+
+.aqtxcolesf {
+  color: #7f7f7f; }
+
+.aqtxcoblsf {
+  color: #306DA7; }
+
+.aqtxcoresf {
+  color: #c4213a; }
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 4rem; }
+  .aqimg70 {
+    width: 70px;
+    height: 70px; } }
+
+@media (max-width: 991px) {
+  .aqpx175 {
+    padding-left: 2%;
+    padding-right: 2.2%; }
+  .aqimg35 {
+    width: 45px;
+    height: 45px; } }
+
+@media (min-width: 768px) {
+  .aqposrel {
+    position: relative;
+    top: -7rem;
+    margin-left: 6%;
+    background-color: white; } }
+
+a span {
+  color: #fff; }
+
+footer,
+header {
+  margin-right: -15px;
+  margin-left: -15px; }
+
+/*a
+body{
+  background: skyblue;
+}
+main{
+  background: yellow;
+}
+
+
+p,h1{
+    font-family:sans-serif;
+}
+p{
+	font-size: $size-paragraph;
+}
+h1{
+	font-size: $size-title;
+    margin-bottom: 0.15em;
+}
+
+div{	border: 1px solid black;
+	div{
+		border: 1px solid blue;
+		div{
+			border: 1px solid red;
+		}
+	}
+}
+section{
+	border: 1px solid blue;
+}
+aside{
+	border: 1px solid red;
+}
+ abcde
+.uno{
+	background: black;
+}
+.dos{
+	background: blue;
+}
+.tres{
+	background: red;
+}
+.cuatro{
+	background: green;
+}
+.cinco{
+	background: orange;
+}
+.seis{
+	background: yellow;
+}
+*/
