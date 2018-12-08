@@ -1,17 +1,312 @@
 
-$colorlead:#7f7f7f;
-$colorblue:#264162;
-$colorred:#c00000;
-$colorleadsf:#666666;
-$colorbluesf:#306DA7;
-$colorredsf:#c4213a;
-$colorwhite:#fff;
+$colorlead:#7f7f7f;		$colorblue:#264162;		$colorred:#c00000;		$colorwhite:#fff;
+$colorleadsf:#666666;	$colorbluesf:#306DA7;	$colorredsf:#c4213a;
 
 $size: 5vh;
 $size-title:8vh;
 $size-paragraph:2.2vh;
 $border-left:0%;
 
+$left-widthtotal:2%;
+$right-widthtotal:2.2%;
+$colorazulparasubtitulodeaboutcolor: #306DA7;
+//-----------------------------------
+h1{//para titulos col9+
+	font-family: sans-bold;
+}
+.aqtxcobl{
+	color: $colorblue;
+}
+.aqtxcole{
+	color: $colorlead;
+}
+.aqtxcore{
+	color: $colorred;
+}
+.aqtxcowh{
+	color: white;
+}
+.aqffsb{
+	font-family: sans-bold;
+}
+.aqmtfirst{
+	margin-top: 3.84rem;
+}
+.aqpx{
+	padding-left: $left-widthtotal;
+	padding-right: $right-widthtotal;
+}
+.aqpx175{
+	padding-left: 1.75rem;
+	padding-right: 1.75rem;
+}
+.aqpxsc{
+	padding-left: 0.5%;
+	padding-right: 0.55%;
+}
+.aqpxsc9{
+	padding-left: 2.67%;
+	padding-right: 2.93%;
+}
+.aqmxcard{
+	border: none;
+	margin-left: 6%;
+	margin-right: 6.6%;
+}
+.aqpxsc9rest{	//* estos asteriscos sumas 2l 2.2r en padding y margin en una section de 9
+	padding-left: 0.67%;
+	padding-right: 0.93%;
+}
+.aqmxsc9card3{	//*
+	border: none;
+	margin-left: 6%;
+	margin-right: 6%;
+}
+.aqpysbti{
+	 padding-bottom: 0.5rem;
+	 padding-top: 2rem;
+}
+.aqpy20{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+.aqmt20{
+	margin-top: 2rem;
+}
+.aqmyimg{
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+.aqticard{
+	color: #333333;
+	font-size: 1.5rem;
+	font-family: sans-bold;
+}
+.aqcontxsc9{//content text section-9
+	font-family: ptsans-serif;
+	font-size: 1.125rem;
+}
+.aqffsr{//summary resumen
+	font-family: sans-regular;
+}
+.aqsbtx{//sidebar text
+	color: #3479b2;
+	line-height: 1.2;
+	font-size: .92rem;
+}
+.aqsbtisi{
+	font-size: 1.05rem;
+	font-weight: 600;
+}
+.aqinfo{
+	background-color: #e9ecef;
+	padding: 1.5rem 1.75rem;	
+	box-shadow: 0px 0px 0px 1px #dee2e6;
+	span{
+		font-weight: 600;
+		font-size: 1.04rem;
+	}
+}
+.hovred{
+	&:hover{
+		h5{
+			color: #c82f30;
+		}
+	}
+}
+.aqunin{
+	&:hover{
+		box-shadow: 0px 0px 6px 1px #ccc;			
+	}
+}
+.aqhovne{
+	&:hover{
+		background-color: #f7f7f7;			
+	}
+}
+
+.aqw100maxw80min576{
+	width: 80%
+}
+.aqsltx{
+	color: $colorwhite;
+	font-family: sans-regular;
+	text-align: left;
+	left:0%;
+	right: 0%;
+	padding-left: $left-widthtotal;
+	padding-right: $right-widthtotal;	
+}
+.aqsltxbg{
+	background: rgba(127,127,127,.2);
+}
+.aqcal{
+	width: 4rem;
+	height: 3.5rem;
+	box-shadow: 0px 0px 2px 1px $colorblue;
+	text-align: center;
+}
+
+.aqcalfe{
+	font-size: 0.9rem;
+	font-family: sans-regular;
+}
+.aqcalfec{
+	color: $colorblue;
+	line-height: 80%;
+	font-size: 1rem;
+	letter-spacing: 2px;
+	align-content: bottom;
+}
+.aqcalfecdy{
+	font-size: 2rem;
+}
+.aqjt{
+	font-size: 1.1rem;
+	&.aqjtbt{
+		background: #3479b2;
+		border-color: #3479b2;
+		transition: all 0.4s;
+		
+		&:hover{
+			background: #c82f30;
+			border-color: #c82f30;
+		}
+
+	}
+	
+}
+.aqun{
+	padding: 2.6rem 2rem;
+	box-shadow: 0px 0px 8px 1px #ccc;
+	&.bblesf{
+		border-bottom: 5px solid $colorleadsf;
+	}
+	&.bbblsf{
+		border-bottom: 5px solid $colorbluesf;
+	}
+	&.bbresf{
+		border-bottom: 5px solid $colorredsf;
+	}
+}
+.aqbble4{
+	border-bottom: 4px solid #f2f2f2;
+}
+.aqbbbl4{
+	border-bottom: 4px solid #d7e6f4;
+}
+.aqbbre4{
+	border-bottom: 4px solid #fbe9ec;
+}
+.aqpxcontabou{ //padding en x para el contenido de about
+	padding-left: $left-widthtotal;
+	padding-right: $right-widthtotal;
+}
+//------------------------------------
+@media (min-width: 768px) {
+	.aqposrel{
+		position: relative;
+		top: -7rem;
+		margin-left: 8% !important; 
+		background-color: white;
+	}
+	.aqpxcontabou{ //padding en x para el contenido de about
+	padding-left: 1.84%;
+	padding-right: 2.02 + 0.74%;
+}
+}
+@media (min-width: 992px) {
+	h1{
+		font-size: 3.50rem;
+	}
+	.aqimglogo{
+		width: 70px;
+		height: 70px;
+	}
+}
+@media (max-width: 576px) {
+	.aqw100maxw80min576{
+		width: 100%
+	}
+}
+@media (max-width: 991px) {
+	.aqimglogo{
+		width: 45px;
+		height: 45px;
+	}
+	.aqpxsc9{
+		padding-left: $left-widthtotal;
+		padding-right: $right-widthtotal;
+	}	
+}
+@media (max-width: 767px) {
+	.aqhvup{
+		div{
+			display: none;
+		}
+	}
+	.aqimgsimaxx{
+		width: 280px;
+	}
+	.aqmxcard{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.aqpxcard9{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.aqpxsc{
+		padding-left: $left-widthtotal;
+		padding-right: $right-widthtotal;
+	}
+	.aqpxsc9rest{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.aqmxsc9card3{
+		margin-left: $left-widthtotal;
+		margin-right: $right-widthtotal;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.aqpxsc9rest{
+		padding-left: 0.1%;
+		padding-right: 0.3%
+	}
+}
+//------------------------------------
+//------------------------------------
+.aqbr{
+	 border-right: 1px solid #fff ;
+}
+table{
+	tr{
+		td{
+			font-family:sans-italic;
+		}
+	}
+}
+.aqimgup{
+	height: 100%;
+	width: 100%;
+}
+.aqhvup{
+	&:hover{
+		div{
+			transition:1s;
+			color: white;
+		}
+		img{
+		transition: 0.5s;
+		opacity: 0.3;
+		}
+	}
+
+}
+.aqffsr{
+	font-family: sans-regular;
+}
 .aqpad2{
 	padding: 2%;
 }
@@ -24,9 +319,6 @@ $border-left:0%;
 .aqbgbl{
 	background-color:$colorblue;
 }
-.aqtxwh{
-	color: $colorwhite;
-}
 .aqsi15{
 	font-size: 1.5rem;
 }
@@ -37,10 +329,6 @@ $border-left:0%;
 	width: 10rem;
 }
 
-.aqpad{
-	padding-left: 2%;
-	padding-right: 2.2%;
-}
 .aqmx0{
 	margin-left: 0;
 	margin-right: 0;
@@ -51,17 +339,9 @@ $border-left:0%;
 .aqmb20{
 	margin-bottom: 2rem;
 }
-.aqmt20{
-	margin-top: 2rem;
-}
-.aqpy20{
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-}
-.aqpx175{
-	padding-left: 1.75rem;
-	padding-right: 1.75rem;
-}
+
+
+
 .aqpt125{
 	padding-top: 1.25rem;
 }
@@ -71,52 +351,20 @@ $border-left:0%;
 .aqpb40{
 	padding-bottom: 4rem;
 }
-.aqcard{
-	border: none;
-	padding-left: 2%;
-}
+// .aqcard{
+// 	border: none;
+// 	padding-left: 8%;
+// }
+
 .aqcardimg{
 	width:370;
 	height:100;
 }
-.aqsubti{
-	font-family: sans-regular;
-}
-.aqticard{
-	color: #333333;
-	font-size: 1.5rem;
-	font-family: sans-bold;
-}
-.aqsbti{
-	 padding-bottom: 0.5rem;
-	 padding-top: 1rem;
-}
-.aqsbtisi{
-	font-size: 1.05rem;
-	font-weight: 600;
-}
-.aqsbtx{
-	color: #3479b2;
-	line-height: 1.2;
-	font-size: .92rem;
-}
-.aqcal{
-	width: 4rem;
-	height: 3.5rem;
-	box-shadow: 0px 0px 2px 1px #264162;
-	text-align: center;
-}
-.aqcalfec{
-	color:#264162;
-	line-height: 80%;
-	font-size: 1rem;
-	letter-spacing: 2px;
-	align-content: bottom;
-}
-.aqcalfecdy{
-	font-size: 2rem;
-	line-height: 80%;
-}
+
+
+
+
+
 .aqcalti{
 	font-size: 1.1rem;
 	font-family: sans-bold;
@@ -125,94 +373,36 @@ $border-left:0%;
 	font-size: 1rem;
 	font-family: sans-regular;
 }
-.aqcalfe{
-	font-size: 0.9rem;
-	font-family: sans-regular;
-}
-.aqjt{
-	font-size: 1.1rem;
-	&.aqjtbt{
-		background: #3479b2;
-		border-color: #3479b2;
-		transition: all 0.4s;
 
-		&:hover{
-			background: #c82f30;
-			border-color: #c82f30;
-		}
 
-	}
-	
-}
-h1,{
-	font-family: sans-bold;
-}
-p{
-	color: #333333;
-}
 a{
 	&:hover{
 		color: #c82f30;
 		text-decoration:none;
 	}
-}
-.hovdeno{
-	&:hover{
-		h5{
-			color: #c82f30;
-		}
-		background: none;
-		text-decoration: none;
+	p{
+	color: #333333;
 	}
 }
+
 img:hover{
 	transition: all .5s;
 	/* opacity: .9; */
 	//filter: grayscale(95%);
 }
-.imgpr{
-	margin-top: 1rem;
-	margin-bottom: 2rem;
+
+
+
+.aqboev{
+	box-shadow: 0px 0px 5px 1px #7f7f7f;
 }
-.aqslal{
-	font-size: 2rem;
-	color:black;
-	text-align: left;
-	left:0%;
-	right: 0%;
-	h1,h4{
-		padding-left: 2%;
-		padding-right: 2%;
-	}
-}
-.aqun{
-	padding: 2.6rem 2rem;
-	box-shadow: 0px 0px 8px 1px #ccc;
-	&.bble{
-		border-bottom: 5px solid $colorleadsf;
-	}
-	&.bbbl{
-		border-bottom: 5px solid $colorbluesf;
-	}
-	&.bbre{
-		border-bottom: 5px solid $colorredsf;
-	}
-}
+
 // padding: 2.6rem 2rem;border-bottom: 5px solid #666666;
 .aqbbtiun{	
 	// border-bottom: 4px solid #ff9999;
 }
 .aqbble1{
 	border-bottom: 1px solid $colorlead;
-}
-.aqbble4{
-	border-bottom: 4px solid #f2f2f2;
-}
-.aqbbbl4{
-	border-bottom: 4px solid #d7e6f4;
-}
-.aqbbre4{
-	border-bottom: 4px solid #fbe9ec;
 }
 .aqunbbcole{	
 	border-bottom: 5px solid $colorleadsf;
@@ -232,45 +422,76 @@ img:hover{
 .aqtxcoresf{	
 	color: $colorredsf;
 }
-@media (min-width: 992px) {
-	h1{
-		font-size: 4rem;
-	}
-	.aqimg70{
-		width: 70px;
-		height: 70px;
-	}
-}
-@media (max-width: 991px){
 
-	.aqpx175{
-	padding-left: 2%;
-	padding-right: 2.2%;
-	}
-	.aqimg35{
-		width: 45px;
-		height: 45px;
+
+@media (min-width: 992px) {
+	.aquie{
+		padding: 1.5rem 10rem;
 	}
 }
+
 
 @media (min-width: 768px) {
-	.aqposrel{
-		position: relative;
-		top: -7rem;
-		margin-left: 6%;
-		background-color: white;
+	.aqposabs{
+		position: absolute;
+		bottom: 0;
+		left: 65%;
 	}
 }
-a{
-	span{
-		color: $colorwhite;
+@media (max-width: 992px) {
+	.aqnoup{
+		font-size: 3.5rem;
+		padding-top: 2rem;
 	}
 }
-footer,
-header{
+@media (min-width: 992px) {
+	.aqnoup{
+		font-size: 86px;
+	}			
+	.aqpadnoup{
+		padding: 7rem 15rem;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 992px){
+	.aqposabs{
+		 h1{
+		 	font-size: 2rem;		 	
+		 }
+		 h3{
+		 	font-size: 1rem;
+		 }
+	}			
+	.aqpadnoup{
+		padding: 5% 10%;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1209px){
+	.aqposabs{
+		 h1{
+		 	font-size: 2.5rem;		 	
+		 }
+		 h3{
+		 	font-size: 1.5rem;
+		 }
+	}				
+	.aqpadnoup{
+		padding: 5% 10%;
+	}
+}
+footer{
 	margin-right: -15px;
 	margin-left: -15px;
 }
+// @media (max-width: 992px) {	
+// 	.aqposabs{
+// 		 h1{
+// 		 	font-size: 2.75rem;		 	
+// 		 }
+// 		 h3{
+// 		 	font-size: 1.25rem;
+// 		 }
+// 	}
+// }
 /*a
 body{
   background: skyblue;
